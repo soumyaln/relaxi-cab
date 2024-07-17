@@ -8,7 +8,7 @@ class CustomerManager:
     CustomerManagerInst = None
 
     def __init__(self):
-        self.__customerStore: Dict[str, Customer] = {}
+        self.__customerStore = {}
 
     @staticmethod
     def get_instance():
